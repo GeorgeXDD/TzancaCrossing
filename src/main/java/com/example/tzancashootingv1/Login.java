@@ -60,6 +60,7 @@ public class Login implements Initializable {
         File lockFile = new File("src/main/resources/com/example/tzancashootingv1/img/lock.png");
         Image lockImage = new Image(lockFile.toURI().toString());
         lockImageView.setImage(lockImage);
+
     }
 
     public void registerButtonOnAction(ActionEvent event) throws SQLException {
